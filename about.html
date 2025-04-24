@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookList About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/32a44c508d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>|</li>
+            <li><a class="active-status" href="about.html">ABOUT</a></li>
+            <li>|</li>
+            <li><a href="registration.html">REGISTER</a></li>
+            <li>|</li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    
+    <div class="about-main">
+        <h1>Project Proposal</h1>
+        <h4>Introduction</h4>
+        <p>The purpose of this project is to develop a simple web-based application known as BookList. It is designed for book enthusiasts who love reading and who wish to keep track of their reading journey. Currently, many people use personal journals or diaries, or note-taking mobile apps to keep track of their reading lists. However, these methods can be inconvenient and disorganized. This is because journal books and diaries can be misplaced, and also finding the right page to add book lists can be a hassle. Moreover, if the journal book is lost, all records they have made so far will be lost too. On the other hand, note-taking apps on mobile phones often lack organization as they are not specifically designed to record book lists. Also, these records cannot be accessed without the phone and especially if the note-taking applications are offline-based. </p>
+        <p>BookList application addresses these issues by providing a dedicated platform where users can easily store and organize their book details in a personal library. Users can upload cover images of books they are reading or read before and even write personal reflections or reviews. It also enables individuals to upload any e-books they want to save, into their ‘collection’ section. </p>
+        <br>
+        <h4>Project Description</h4>
+        <p>The BookList application will have following pages; home page to display the information about the application and the features it provides, registration page for users to create an account and log in page for existing users, to access their personalized library. Once they are signed in, it will take the user to the main dashboard. In the main dashboard, users can view their records, or add or remove details of the books. Book details include, title of the book, authors, page numbers, start date of reading and when it was completed. In addition, they can even upload pictures of the book covers to make it look visually appealing and satisfying. </p>
+        <p>Moreover, the platform will allow users to write a review or reflection on each book they add. This will allow users to express their feelings or write a summary or highlights on what they have learned from each book. Furthermore, there will also be a ‘wishlist’ section, where they can record the book details they wish to read in the future. This can prevent users from forgetting what book they want to read next and encourages them to continue with the habit of reading.  Finally, the application will also provide a ‘collection’ section, where they can store any ebooks they wish to save or upload hyperlink to the books, as part of their book collection to refer back, in the future. 
+
+            The application will have 4 sql tables in total; account table to store the details of users account upon registration (like name, email, password), book table to store book details (such as book title, author, startdate, enddate, cover picture), wishlist table to store want-to-read books details in the future, and collection table to store/save files (pdf) or links to e-books.  
+            </p>
+            <br>
+            <h4>Development Approach</h4>
+        <p>The project will be developed using an agile development approach due to its iterative approach. The Agile method allows an incremental development approach where the projects will be developed in ‘increments’ with continuous feedback. An agile has the flexibility to make adjustments based on user testing and feedback. This is due to its functionality and user centric design. The project will be divided into sprints, where each sprint focuses on implementing specific features such as user authentication, book management, and image uploads. By adopting an agile approach, the project can adapt easily to user requirement changes. The approach ensures that the final product meets the needs of its users effectively.</p>
+        <br>
+        <h4>Tools and Technologies</h4>
+        <p>The BookList application will be developed using client-side (such as HTML5, CSS3, JavaScript) and server-side scripting languages, PHP and MySQL. HTML5 and CSS3 will be used for structuring and styling the web pages. JavaScript for interaction through dynamic content updates and form validation. PHP will be used to handle server side processing such as user authentication, data manipulation, and file uploads. MySQL is the database management system that will be used to store data such as user details, book details and book cover images.</p>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>We are dedicated to providing you with the best reading experience. Explore more about us on the About page.</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: booklistweb@gmial.com</p>
+                <p>Phone: +60 123 456</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 BookList. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"> </script>
+</body>
+</html>

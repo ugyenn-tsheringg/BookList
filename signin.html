@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookList - Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img class="logo" src="img/logo.png" alt="logo">
+      <ul>
+          <li><a class="active-status" href="index.html">HOME</a></li>
+          <li>|</li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li>|</li>
+          <li><a href="registration.html">REGISTER</a></li>
+          <li>|</li>
+          <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+  </div>
+    <div class="signin-container">
+      <form action="signin.php" method="post" class="signin-form">
+        <h2>Log In</h2>
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <p id="error-message" style="color: red"></p>
+        <!-- Error message container -->
+
+        <button type="submit" class="signin-btn">Log In</button>
+
+        <p class="signup-link">
+          Don't have an account? <a href="registration.html">Sign up</a>
+        </p>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-container">
+          <div class="footer-column">
+              <h3>About Us</h3>
+              <p>We are dedicated to providing you with the best reading experience. Explore more about us on the About page.</p>
+          </div>
+          
+          <div class="footer-column">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Register</a></li>
+                  <li><a href="contact.html">Sign in</a></li>
+                  <li><a href="registeration.html">Contact</a></li>
+              </ul>
+          </div>
+          
+          <div class="footer-column">
+              <h3>Contact Us</h3>
+              <p>Email: booklistweb@gmial.com</p>
+              <p>Phone: +60 123 456</p>
+          </div>
+          
+          <div class="footer-column">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                  <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-bottom">
+          <p>&copy; 2024 BookList. All rights reserved.</p>
+      </div>
+  </footer>
+  </body>
+</html>
